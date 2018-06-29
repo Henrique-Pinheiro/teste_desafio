@@ -2,8 +2,11 @@
 
 # Desafio QA GFT
 
-Como um candidato a uma vaga de QA na GFT, você deve saber realizar um script de automação para uma página WEB.
+Automatizar testes funcionais previamente planejados, é uma das atribuições de um QA na GFT.
 
+Atualmente,grande parte das aplicações são desenvolvidas para diversas plataformas (Mobile, Website etc) e consomem um webservice para adicionar uma camada de segurança, redução de código, entre outros benefícios.
+
+Dito isso, além de realizar testes de front em websites, é importante adicionar testes de serviço para obter maior confiabilidade e qualidade no produto.
 
 ## Iniciando
 
