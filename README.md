@@ -27,7 +27,7 @@ Você deve automatizar, em Java, com Selenium Web-Driver, a Pagina http://automa
 * Acessar a Pagina
 * Selecionar a Opção SigIn
 * Criar uma Conta no Site (Preencher TODOS os campos)
-* Validar a criação de Conta,l realizan do um Login
+* Validar a criação de Conta, realizando um Log Out e um Login, logo em seguida.
 
 Diferencias: Utilizar os Conceitos de BDD e/ou Page Objects, prencher os campos com geração de dados dinamicas e escolha aleatória na seleção das opções (combo boxes, check boxes, etc).
 
