@@ -1,3 +1,5 @@
+![alt text](https://raw.githubusercontent.com/henrique-pinheiro/teste_desafio/master/QA_GFT_BRAZIL.jpg)
+
 # Desafio QA GFT
 
 Como um candidato a uma vaga de QA na GFT, você deve saber realizar um script de automação para uma página WEB.
