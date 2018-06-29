@@ -13,18 +13,18 @@ Para iniciar realize um Fork desse repositório com seu usuário do Github, apó
 
 Criar um único projeto, realizando um Fork desse repositorio, contendo:
 
-*"Readme" com orientações de como instalar o ambiente e executar os testes
-*A solução dos desafios propostos a seguir
+* "Readme" com orientações de como instalar o ambiente e executar os testes
+* A solução dos desafios propostos a seguir
 
 
 ### Desafio - Web Site
 
 Você deve automatizar, em Java, com Selenium Web-Driver, o acesso a Pagina http://automationpractice.com/index.php realizando as seguintes atividades:
 
-*Acessar a Pagina
-*Selecionar a Opção SigIn
-*Criar uma Conta no Site (Preencher TODOS os campos)
-*Validar a criação de Conta,l realizan do um Login
+* Acessar a Pagina
+* Selecionar a Opção SigIn
+* Criar uma Conta no Site (Preencher TODOS os campos)
+* alidar a criação de Conta,l realizan do um Login
 
 Diferencias: Utilizar os Conceitos de BDD e/ou Page Objects, prencher os campos com geração de dados dinamicas e escolha aleatória na seleção das opções (combo boxes, check boxes, etc).
 
@@ -32,9 +32,9 @@ Diferencias: Utilizar os Conceitos de BDD e/ou Page Objects, prencher os campos 
 
 TBD
 
-##Finalizando
+## Finalizando
 
 Desenvolva seu projeto, faça seus commits, no fork realizado, após o termino do seu projeto nos envie um Pull Request através do Github.
 
-###Dica
+## Dica
 Caso não consiga finalizar o projeto a tempo, nos envie mesmo assim, nós avaliamos diversos itens como lógica, estrutura, padrões utilizados, entre outras coisas
