@@ -9,7 +9,7 @@ Como um candidato a uma vaga de QA na GFT, você deve saber realizar um script d
 
 Para iniciar realize um Fork desse repositório com seu usuário do Github, após isso inicie seu projeto, ao finalizar, enviar um pull request.
 
-### O Projeto
+## O Projeto
 
 Criar um único projeto, realizando um Fork desse repositorio, contendo:
 
@@ -37,4 +37,4 @@ TBD
 Desenvolva seu projeto, faça seus commits, no fork realizado, após o termino do seu projeto nos envie um Pull Request através do Github.
 
 ## Dica
-Caso não consiga finalizar o projeto a tempo, nos envie mesmo assim, nós avaliamos diversos itens como lógica, estrutura, padrões utilizados, entre outras coisas
+Caso não consiga finalizar o projeto a tempo, nos envie mesmo assim, nós avaliaremos diversos itens como, lógica, estrutura, padrões utilizados, entre outras coisas.
