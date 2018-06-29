@@ -5,86 +5,36 @@
 Como um candidato a uma vaga de QA na GFT, você deve saber realizar um script de automação para uma página WEB.
 
 
-## Getting Started
+## Iniciando
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+Para iniciar realize um Fork desse repositório com seu usuário do Github, após isso inicie seu projeto, ao finalizar, enviar um pull request.
 
-### Prerequisites
+### O Projeto
 
-What things you need to install the software and how to install them
+Criar um único projeto, realizando um Fork desse repositorio, contendo:
 
-```
-Give examples
-```
+*"Readme" com orientações de como instalar o ambiente e executar os testes
+*A solução dos desafios propostos a seguir
 
-### Installing
 
-A step by step series of examples that tell you how to get a development env running
+### Desafio - Web Site
 
-Say what the step will be
+Você deve automatizar, em Java, com Selenium Web-Driver, o acesso a Pagina http://automationpractice.com/index.php realizando as seguintes atividades:
 
-```
-Give the example
-```
+*Acessar a Pagina
+*Selecionar a Opção SigIn
+*Criar uma Conta no Site (Preencher TODOS os campos)
+*Validar a criação de Conta,l realizan do um Login
 
-And repeat
+Diferencias: Utilizar os Conceitos de BDD e/ou Page Objects, prencher os campos com geração de dados dinamicas e escolha aleatória na seleção das opções (combo boxes, check boxes, etc).
 
-```
-until finished
-```
+### Desafio - Web Service
 
-End with an example of getting some data out of the system or using it for a little demo
+TBD
 
-## Running the tests
+##Finalizando
 
-Explain how to run the automated tests for this system
+Desenvolva seu projeto, faça seus commits, no fork realizado, após o termino do seu projeto nos envie um Pull Request através do Github.
 
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+###Dica
+Caso não consiga finalizar o projeto a tempo, nos envie mesmo assim, nós avaliamos diversos itens como lógica, estrutura, padrões utilizados, entre outras coisas
