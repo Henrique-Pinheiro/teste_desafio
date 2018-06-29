@@ -19,14 +19,16 @@ Criar um único projeto, realizando um Fork desse repositorio, contendo:
 
 ### Desafio - Web Site
 
-Você deve automatizar, em Java, com Selenium Web-Driver, o acesso a Pagina http://automationpractice.com/index.php realizando as seguintes atividades:
+Você deve automatizar, em Java, com Selenium Web-Driver, a Pagina http://automationpractice.com/index.php realizando as seguintes atividades:
 
 * Acessar a Pagina
 * Selecionar a Opção SigIn
 * Criar uma Conta no Site (Preencher TODOS os campos)
-* alidar a criação de Conta,l realizan do um Login
+* Validar a criação de Conta,l realizan do um Login
 
 Diferencias: Utilizar os Conceitos de BDD e/ou Page Objects, prencher os campos com geração de dados dinamicas e escolha aleatória na seleção das opções (combo boxes, check boxes, etc).
+
+OBS: OS diferencias obrigatorios estão sinalizados no email.
 
 ### Desafio - Web Service
 
