@@ -1,6 +1,7 @@
-# Project Title
+# Desafio QA GFT
 
-One Paragraph of project description goes here
+Como um candidato a uma vaga de QA na GFT, você deve saber realizar um script de automação para uma página WEB.
+
 
 ## Getting Started
 
