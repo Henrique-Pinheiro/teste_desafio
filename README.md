@@ -19,7 +19,7 @@ Criar um único projeto, realizando um Fork desse repositorio, contendo:
 
 ### Desafio - Web Site
 
-Você deve automatizar, em Java, com Selenium Web-Driver, a Pagina http://automationpractice.com/index.php realizando as seguintes atividades:
+Você deve automatizar, em Java, com Selenium Web-Driver, a Pagina http://automationpractice.com/index.php, realizando as seguintes atividades:
 
 * Acessar a Pagina
 * Selecionar a Opção SigIn
