@@ -29,7 +29,7 @@ Você deve automatizar, em Java, com Selenium Web-Driver, a Pagina http://automa
 * Criar uma Conta no Site (Preencher TODOS os campos)
 * Validar a criação de Conta, realizando um Log Out e um Login, logo em seguida.
 
-Diferencias: Utilizar os Conceitos de BDD e/ou Page Objects, prencher os campos com geração de dados dinamicas e escolha aleatória na seleção das opções (combo boxes, check boxes, etc).
+Diferencias: Utilizar os Conceitos de BDD e/ou Page Objects, prencher os campos com geração de dados dinamicas(exceto Login) e escolha aleatória na seleção das opções (combo boxes, check boxes, etc).
 
 OBS: OS diferencias obrigatorios estão sinalizados no email.
 
