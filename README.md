@@ -25,13 +25,13 @@ Criar um único projeto, realizando um Fork desse repositorio, contendo:
 Você deve automatizar, em Java, com Selenium Web-Driver, a Pagina http://automationpractice.com/index.php, realizando as seguintes atividades:
 
 * Acessar a Pagina
-* Selecionar a Opção SigIn
+* Selecionar a Opção Sign In
 * Criar uma Conta no Site (Preencher TODOS os campos)
-* Validar a criação de Conta, realizando um Log Out e um Login, logo em seguida.
+* Validar a criação de Conta, realizando um Log Out e em seguida um Login.
 
 Diferencias: Utilizar os Conceitos de BDD e/ou Page Objects, prencher os campos com geração de dados dinamicas(exceto Login) e escolha aleatória na seleção das opções (combo boxes, check boxes, etc).
 
-OBS: OS diferencias obrigatorios estão sinalizados no email.
+OBS: Os diferencias obrigatorios estão sinalizados no email.
 
 ### Desafio - Web Service
 
@@ -39,7 +39,7 @@ TBD
 
 ## Finalizando
 
-Desenvolva seu projeto, faça seus commits, no fork realizado, após o termino do seu projeto nos envie um Pull Request através do Github.
+Desenvolva seu projeto, faça seus commits, no fork realizado e após o termino do seu projeto nos envie um Pull Request através do Github.
 
 ## Dica
 Caso não consiga finalizar o projeto a tempo, nos envie mesmo assim, nós avaliaremos diversos itens como, lógica, estrutura, padrões utilizados, entre outras coisas.
