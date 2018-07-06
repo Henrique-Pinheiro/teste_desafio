@@ -51,7 +51,6 @@ Criar um único projeto, realizando um Fork desse repositorio, contendo:
         4- Utilizar Cucumber para documentar os cenários.
         
 
-        OBS: Os itens obrigatorios são do 1 ao 6.
 ## Desafio de performance
     * Projeto:
         1- Criar um script utilizando o Jmeter.
