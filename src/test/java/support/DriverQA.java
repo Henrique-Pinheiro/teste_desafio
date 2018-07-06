@@ -79,6 +79,8 @@ public class DriverQA {
                 return By.xpath(parValue);
             case "link":
                 return By.linkText(parValue);
+            case "class":
+                return By.className(parValue);
             default:
                 return By.id(parValue);
         }
