@@ -10,7 +10,7 @@ Feature: Create a account on http://automationpractice.com/index.php
 
     Scenario: User wants to create account
       Given User is at the "AUTHENTICATION" page
-      When User informs an email Adrres at the Create an account Option
+      When User informs an email Address at the Create an account Option
         And User clicks on the Create Account button
       Then User should see the "CREATE AN ACCOUNT" page
 

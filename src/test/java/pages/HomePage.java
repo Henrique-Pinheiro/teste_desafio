@@ -14,5 +14,4 @@ public class HomePage {
         driver.click("login", "class");
     }
 
-
 }
