@@ -13,10 +13,8 @@ Feature: Create a account on http://automationpractice.com/index.php
       When User informs an email Address at the Create an account Option
         And User clicks on the Create Account button
       Then User should see the "CREATE AN ACCOUNT" page
-
-    Scenario: User fill the fields for creating an account
-      Given User is at the "CREATE AN ACCOUNT" page
-      When User fill the fields
+      When User fill all the fields with random data
+        And User clicks on the Register button
       Then User should see the "MY ACCOUNT" page
 
     Scenario: User wants to Sign Out

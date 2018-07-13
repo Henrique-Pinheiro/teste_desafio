@@ -41,12 +41,13 @@ public class Create_Account_Steps extends BaseSteps {
         switch (string01) {
             case "AUTHENTICATION":
                 Assert.assertEquals(string01, aut.checkHeadAuthentication());
+                break;
             case "CREATE AN ACCOUNT":
                 Assert.assertEquals(string01, createAcc.checkHeadCreateAcc());
+                break;
             case "MY ACCOUNT":
-
+                break;
         }
-
     }
 
     @Given("^User is at the \"([^\"]*)\" page$")
@@ -63,5 +64,10 @@ public class Create_Account_Steps extends BaseSteps {
     @And("^User clicks on the Create Account button$")
     public void userClicksOnTheCreateAccountButton(){
         aut.clickCreateAcc();
+    }
+
+    @When("^User fill all the fields with random data$")
+    public void userfillallthefieldswithrandomdata(){
+        createAcc.fillFilds();
     }
 }

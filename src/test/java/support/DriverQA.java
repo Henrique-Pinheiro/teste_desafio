@@ -21,8 +21,8 @@ import java.util.concurrent.TimeUnit;
 public class DriverQA {
 
     private static WebDriver driver;
-    private static final long DEFAULT_WAIT_TIMEOUT = 20;
-    private static final long IMPLICITLY_WAIT_TIMEOUT = 10;
+    private static final long DEFAULT_WAIT_TIMEOUT = 20; //mudar para 20
+    private static final long IMPLICITLY_WAIT_TIMEOUT = 10; // mudar para 10
 
     public void start(String parBrowser) {
         String title;
