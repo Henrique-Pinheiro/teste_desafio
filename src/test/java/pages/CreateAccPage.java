@@ -9,19 +9,23 @@ public class CreateAccPage {
 
     Faker faker = new Faker();
     DriverQA driver = new DriverQA();
-    Random random;//random.nextBoolean();
+
 
     public String checkHeadCreateAcc() {
         driver.waitElement("customer_firstname");
         return driver.getText("page-heading", "class");
     }
 
-    public void fillFilds(){
-
+    public void fillFilds() {
+        Random random = new Random();
+        Boolean bolValue = random.nextBoolean();
+        Boolean bolValue2 = random.nextBoolean();
+        Boolean bolValue3 = random.nextBoolean();
+        int intValue = random.nextInt((31 - 1) + 1);
         //setting variable with random Data, to fill the fields.
         String txtFirstName = faker.name().firstName();
         String txtLastName = faker.name().lastName();
-        String txtPassword = txtFirstName+"123";
+        String txtPassword = txtFirstName + "123";
         String txtCompany = faker.company().industry();
         String txtAddress = faker.address().fullAddress();
         String txtAddress2 = faker.address().secondaryAddress();
@@ -34,7 +38,7 @@ public class CreateAccPage {
         //Filling the fields
         driver.sendKeys(txtFirstName, "customer_firstname");
         driver.sendKeys(txtLastName, "customer_lastname");
-        driver.sendKeys(txtPassword,"passwd");
+        driver.sendKeys(txtPassword, "passwd");
         driver.sendKeys(txtFirstName, "firstname");
         driver.sendKeys(txtLastName, "lastname");
         driver.sendKeys(txtCompany, "company");
@@ -47,9 +51,22 @@ public class CreateAccPage {
         driver.sendKeys(txtMobilePhone, "phone_mobile");
         driver.sendKeys(txtAddressAlias, "alias");
         //Selecting random Radio Button
-        //if (random.nextBoolean()) {
+        if (bolValue) {
             driver.click("id_gender1");
-       // } else driver.click("id_gender2");
-        driver.waitElement("asdfasdsa");
+        } else {
+            driver.click("id_gender2");
+        }
+        //Selecting random checkbox's
+        if (bolValue2) {
+            driver.click("newsletter");}
+        if (bolValue3) {
+            driver.click("optin");
+        }
+        //Selecting random selects
+        driver.click("uniform-days");
+        driver.waitElement("xpath", "//*[@id=\"days\"]/option[2]" );
+        //driver.click();
+        //driver.waitElement("asdfasdsa");//tira e cola, rs
+        }
     }
-}
+

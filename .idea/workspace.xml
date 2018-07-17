@@ -12,11 +12,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CreateAccount.feature" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CreateAccount.feature" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/features/CreateAccount.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+            <state relative-caret-position="204">
+              <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -24,27 +24,23 @@
       <file leaf-file-name="Create_Account_Steps.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/steps/Create_Account_Steps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="487">
+            <state relative-caret-position="870">
               <caret line="70" column="30" selection-start-line="70" selection-start-column="30" selection-end-line="70" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#accessTheMyStoreWebPage#0;class#Create_Account_Steps#0" />
-                <element signature="e#1857#1858#0" expanded="true" />
-                <element signature="e#1891#1892#0" expanded="true" />
-                <element signature="e#2001#2002#0" expanded="true" />
-                <element signature="e#2037#2038#0" expanded="true" />
                 <element signature="e#2216#2217#0" expanded="true" />
-                <element signature="e#2240#2241#0" expanded="true" />
+                <element signature="e#2253#2254#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CreateAccPage.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CreateAccPage.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/pages/CreateAccPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="52" column="37" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
+            <state relative-caret-position="632">
+              <caret line="64" column="34" lean-forward="true" selection-start-line="64" selection-start-column="34" selection-end-line="64" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -55,8 +51,8 @@
       <file leaf-file-name="DriverQA.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/support/DriverQA.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="24" column="58" selection-start-line="24" selection-start-column="58" selection-end-line="24" selection-end-column="58" />
+            <state relative-caret-position="357">
+              <caret line="76" column="29" lean-forward="true" selection-start-line="76" selection-start-column="29" selection-end-line="76" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -213,20 +209,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber java.Scenario: User wants to create account (1)">
+  <component name="RunManager" selected="Cucumber java.Scenario: User wants to create account (2)">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="Scenario: User wants the Sign In the Application (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="skeleton" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^User wants the Sign In the Application$&quot;" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
     </configuration>
     <configuration name="Scenario: User wants the Sign In the Application (2)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
@@ -239,7 +224,7 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Scenario: User wants the Sign In the Application" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: User wants the Sign In the Application (3)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="skeleton" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^User wants the Sign In the Application$&quot;" />
@@ -251,6 +236,17 @@
       </extension>
     </configuration>
     <configuration name="Scenario: User wants to create account (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="skeleton" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^User wants to create account$&quot;" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Scenario: User wants to create account (2)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="skeleton" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^User wants to create account$&quot;" />
@@ -311,19 +307,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Cucumber java.Scenario: User wants the Sign In the Application" />
-      <item itemvalue="Cucumber java.Scenario: User wants the Sign In the Application (1)" />
       <item itemvalue="Cucumber java.Scenario: User wants to create account" />
       <item itemvalue="Cucumber java.Scenario: User wants to create account (1)" />
       <item itemvalue="Cucumber java.Scenario: User wants the Sign In the Application (2)" />
+      <item itemvalue="Cucumber java.Scenario: User wants the Sign In the Application (3)" />
+      <item itemvalue="Cucumber java.Scenario: User wants to create account (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber java.Scenario: User wants to create account (2)" />
+        <item itemvalue="Cucumber java.Scenario: User wants the Sign In the Application (3)" />
         <item itemvalue="Cucumber java.Scenario: User wants to create account (1)" />
         <item itemvalue="Cucumber java.Scenario: User wants the Sign In the Application (2)" />
         <item itemvalue="Cucumber java.Scenario: User wants to create account" />
-        <item itemvalue="Cucumber java.Scenario: User wants the Sign In the Application (1)" />
-        <item itemvalue="Cucumber java.Scenario: User wants the Sign In the Application" />
       </list>
     </recent_temporary>
   </component>
@@ -341,35 +337,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Scenario__User_wants_to_create_account_(1) - 2018.07.13 at 09h 32m 20s.xml">
-      <configuration name="Scenario: User wants to create account (1)" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Scenario__User_wants_to_create_account_(2) - 2018.07.16 at 18h 24m 44s.xml">
+      <configuration name="Scenario: User wants to create account (2)" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__User_wants_to_create_account_(1) - 2018.07.13 at 09h 33m 59s.xml">
-      <configuration name="Scenario: User wants to create account (1)" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Scenario__User_wants_to_create_account_(2) - 2018.07.16 at 18h 30m 03s.xml">
+      <configuration name="Scenario: User wants to create account (2)" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__User_wants_to_create_account_(1) - 2018.07.13 at 09h 37m 10s.xml">
-      <configuration name="Scenario: User wants to create account (1)" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Scenario__User_wants_to_create_account_(2) - 2018.07.16 at 18h 31m 57s.xml">
+      <configuration name="Scenario: User wants to create account (2)" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__User_wants_to_create_account_(1) - 2018.07.13 at 09h 46m 36s.xml">
-      <configuration name="Scenario: User wants to create account (1)" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Scenario__User_wants_to_create_account_(2) - 2018.07.16 at 18h 34m 00s.xml">
+      <configuration name="Scenario: User wants to create account (2)" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__User_wants_to_create_account_(1) - 2018.07.13 at 10h 27m 12s.xml">
-      <configuration name="Scenario: User wants to create account (1)" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Scenario__User_wants_to_create_account_(2) - 2018.07.16 at 18h 35m 11s.xml">
+      <configuration name="Scenario: User wants to create account (2)" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__User_wants_to_create_account_(1) - 2018.07.13 at 10h 28m 18s.xml">
-      <configuration name="Scenario: User wants to create account (1)" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Scenario__User_wants_to_create_account_(2) - 2018.07.16 at 18h 37m 03s.xml">
+      <configuration name="Scenario: User wants to create account (2)" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__User_wants_to_create_account_(1) - 2018.07.13 at 10h 35m 42s.xml">
-      <configuration name="Scenario: User wants to create account (1)" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Scenario__User_wants_to_create_account_(2) - 2018.07.16 at 19h 00m 18s.xml">
+      <configuration name="Scenario: User wants to create account (2)" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__User_wants_to_create_account_(1) - 2018.07.13 at 10h 36m 35s.xml">
-      <configuration name="Scenario: User wants to create account (1)" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Scenario__User_wants_to_create_account_(2) - 2018.07.16 at 19h 01m 51s.xml">
+      <configuration name="Scenario: User wants to create account (2)" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__User_wants_to_create_account_(1) - 2018.07.13 at 10h 38m 26s.xml">
-      <configuration name="Scenario: User wants to create account (1)" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Scenario__User_wants_to_create_account_(2) - 2018.07.16 at 19h 04m 23s.xml">
+      <configuration name="Scenario: User wants to create account (2)" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__User_wants_to_create_account_(1) - 2018.07.13 at 10h 43m 22s.xml">
-      <configuration name="Scenario: User wants to create account (1)" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Scenario__User_wants_to_create_account_(2) - 2018.07.16 at 19h 06m 50s.xml">
+      <configuration name="Scenario: User wants to create account (2)" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -391,10 +387,10 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.25054467" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.25381264" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.1546841" />
       <window_info id="Designer" order="0" />
-      <window_info content_ui="combo" id="Project" order="4" visible="true" weight="0.30063966" />
+      <window_info content_ui="combo" id="Project" order="4" visible="true" weight="0.30383795" />
       <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="1" />
@@ -417,6 +413,43 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/CreateAccount.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/steps/Create_Account_Steps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1190">
+          <caret line="70" column="30" selection-start-line="70" selection-start-column="30" selection-end-line="70" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#accessTheMyStoreWebPage#0;class#Create_Account_Steps#0" />
+            <element signature="e#2216#2217#0" expanded="true" />
+            <element signature="e#2253#2254#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/CreateAccPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="52" column="37" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/support/DriverQA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="58" selection-start-line="24" selection-start-column="58" selection-end-line="24" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/features/CreateAccount.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -453,12 +486,8 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#accessTheMyStoreWebPage#0;class#Create_Account_Steps#0" />
-            <element signature="e#1857#1858#0" expanded="true" />
-            <element signature="e#1891#1892#0" expanded="true" />
-            <element signature="e#2001#2002#0" expanded="true" />
-            <element signature="e#2037#2038#0" expanded="true" />
             <element signature="e#2216#2217#0" expanded="true" />
-            <element signature="e#2240#2241#0" expanded="true" />
+            <element signature="e#2253#2254#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -498,12 +527,8 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#accessTheMyStoreWebPage#0;class#Create_Account_Steps#0" />
-            <element signature="e#1857#1858#0" expanded="true" />
-            <element signature="e#1891#1892#0" expanded="true" />
-            <element signature="e#2001#2002#0" expanded="true" />
-            <element signature="e#2037#2038#0" expanded="true" />
             <element signature="e#2216#2217#0" expanded="true" />
-            <element signature="e#2240#2241#0" expanded="true" />
+            <element signature="e#2253#2254#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -640,13 +665,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.6.0/selenium-api-3.6.0.jar!/org/openqa/selenium/By.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="69" column="18" lean-forward="true" selection-start-line="69" selection-start-column="18" selection-end-line="69" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pages/LoginSiga.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -694,44 +712,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/support/DriverQA.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.6.0/selenium-api-3.6.0.jar!/org/openqa/selenium/WebDriver.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="24" column="58" selection-start-line="24" selection-start-column="58" selection-end-line="24" selection-end-column="58" />
+        <state relative-caret-position="-239">
+          <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/steps/Create_Account_Steps.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
+        <state relative-caret-position="870">
           <caret line="70" column="30" selection-start-line="70" selection-start-column="30" selection-end-line="70" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#accessTheMyStoreWebPage#0;class#Create_Account_Steps#0" />
-            <element signature="e#1857#1858#0" expanded="true" />
-            <element signature="e#1891#1892#0" expanded="true" />
-            <element signature="e#2001#2002#0" expanded="true" />
-            <element signature="e#2037#2038#0" expanded="true" />
             <element signature="e#2216#2217#0" expanded="true" />
-            <element signature="e#2240#2241#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages/CreateAccPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="52" column="37" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#2253#2254#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/features/CreateAccount.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        <state relative-caret-position="204">
+          <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.6.0/selenium-api-3.6.0.jar!/org/openqa/selenium/By.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="119" column="15" selection-start-line="119" selection-start-column="15" selection-end-line="119" selection-end-column="15" />
+          <folding>
+            <element signature="e#3817#3818#0" expanded="true" />
+            <element signature="e#3865#3866#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/support/DriverQA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="76" column="29" lean-forward="true" selection-start-line="76" selection-start-column="29" selection-end-line="76" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/CreateAccPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="632">
+          <caret line="64" column="34" lean-forward="true" selection-start-line="64" selection-start-column="34" selection-end-line="64" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
