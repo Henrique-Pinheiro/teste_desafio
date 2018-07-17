@@ -11,6 +11,10 @@ import support.DriverQA;
 import pages.HomePage;
 import pages.AuthenticationPage;
 import pages.CreateAccPage;
+import pages.MyAccountPage;
+
+import java.io.FileNotFoundException;
+import java.io.UnsupportedEncodingException;
 
 public class Create_Account_Steps extends BaseSteps {
 
@@ -18,6 +22,7 @@ public class Create_Account_Steps extends BaseSteps {
     HomePage home = new HomePage();
     AuthenticationPage aut = new AuthenticationPage();
     CreateAccPage createAcc = new CreateAccPage();
+    MyAccountPage myaccount = new MyAccountPage();
 
 
     @Given("^User Access the My Store web page$")
@@ -46,18 +51,19 @@ public class Create_Account_Steps extends BaseSteps {
                 Assert.assertEquals(string01, createAcc.checkHeadCreateAcc());
                 break;
             case "MY ACCOUNT":
+                Assert.assertEquals(string01, myaccount.checkHeadMyAccount());
                 break;
         }
     }
 
-    @Given("^User is at the \"([^\"]*)\" page$")
-    public void userIsAtThePage(String string02){
+    @Given("^User is at the AUTHENTICATION page$")
+    public void userIsAtThePage(){
         userClicksOnSigInOption();
-        userShouldSeeThePage(string02);
+        userShouldSeeThePage("AUTHENTICATION");
     }
 
     @When("^User informs an email Address at the Create an account Option$")
-    public void userInformsAnEmailAddressAtTheCreateAnAccountOption(){
+    public void userInformsAnEmailAddressAtTheCreateAnAccountOption() throws FileNotFoundException, UnsupportedEncodingException {
         aut.fillEmailAut();
     }
 
@@ -67,7 +73,12 @@ public class Create_Account_Steps extends BaseSteps {
     }
 
     @When("^User fill all the fields with random data$")
-    public void userfillallthefieldswithrandomdata(){
+    public void userfillallthefieldswithrandomdata() throws FileNotFoundException, UnsupportedEncodingException {
         createAcc.fillFilds();
+    }
+
+    @And("^User clicks on the Register button$")
+    public void userClicksOnTheRegisterButton(){
+        createAcc.clickBtnRegister();
     }
 }
