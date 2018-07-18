@@ -35,12 +35,12 @@ public class AuthenticationPage {
     }
 
     public void fillEmailLogin() throws IOException {
-        String txtEmail = driver.fileToString("C:\\Users\\hers\\Desktop\\Selenium\\teste_desafio\\Saved_Email.txt");
+        String txtEmail = driver.fileToString("Saved_Email.txt");
         driver.sendKeys(txtEmail, "email");
     }
 
     public void fillPasswordLogin()throws IOException {
-        String txtPassword = driver.fileToString("C:\\Users\\hers\\Desktop\\Selenium\\teste_desafio\\Saved_Password.txt");
+        String txtPassword = driver.fileToString("Saved_Password.txt");
         driver.sendKeys(txtPassword, "passwd");
     }
 
