@@ -111,4 +111,6 @@ public class Create_Account_Steps extends BaseSteps {
     public void userClicksOnSignOutButton() {
         myaccount.clickSignOut();
     }
+
+    //remove this
 }
