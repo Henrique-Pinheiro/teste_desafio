@@ -10,4 +10,8 @@ public class MyAccountPage {
         driver.waitElement("info-account", "class");
         return driver.getText("page-heading", "class");
     }
+
+    public void clickSignOut(){
+        driver.click("logout", "class");
+    }
 }

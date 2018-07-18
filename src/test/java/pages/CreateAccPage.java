@@ -18,7 +18,7 @@ public class CreateAccPage {
     private Boolean bolValue = random.nextBoolean();
     private Boolean bolValue2 = random.nextBoolean();
     private Boolean bolValue3 = random.nextBoolean();
-    private int intValueDay = random.nextInt((31 - 1) + 1);
+    private int intValueDay = random.nextInt((28 - 1) + 1);
     private int intValueMonth = random.nextInt((11 - 1) + 1);
     private int intValueYear = random.nextInt((2018 - 1900) + 1);
     private int intValueState = random.nextInt((50 - 1) + 1);

@@ -12,6 +12,11 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.io.IOException;
+import java.nio.charset.Charset;
+import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
@@ -228,5 +233,23 @@ public class DriverQA {
         final WebElement element = findElem(parValue, parType);
         final Actions actions = new Actions(driver);
         actions.doubleClick(element).build().perform();
+    }
+
+    public String fileToString (String path) throws IOException {
+        String content = readFile(path, StandardCharsets.UTF_8);
+        return removeLastChar(content);
+    }
+
+    static String readFile(String path, Charset encoding)
+            throws IOException
+    {
+        byte[] encoded = Files.readAllBytes(Paths.get(path));
+        return new String(encoded, encoding);
+    }
+
+    public String removeLastChar(String str) {
+        if (str != null && str.length() > 0)
+            str = str.substring(0, str.length() - 1);
+        return str;
     }
 }

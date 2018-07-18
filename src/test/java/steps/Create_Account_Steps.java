@@ -14,6 +14,7 @@ import pages.CreateAccPage;
 import pages.MyAccountPage;
 
 import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.io.UnsupportedEncodingException;
 
 public class Create_Account_Steps extends BaseSteps {
@@ -80,5 +81,34 @@ public class Create_Account_Steps extends BaseSteps {
     @And("^User clicks on the Register button$")
     public void userClicksOnTheRegisterButton(){
         createAcc.clickBtnRegister();
+    }
+
+    @When("^User informs an email address at the Already Registered Option$")
+    public void userInformsAnEmailAddressAtTheAlreadyRegisteredOption() throws IOException {
+        aut.fillEmailLogin();
+    }
+
+    @And("^User informs a Password$")
+    public void userInformsAPassword() throws IOException {
+        aut.fillPasswordLogin();
+    }
+
+    @And("^User Clicks on Sign in Button$")
+    public void userClicksOnSignInButton(){
+        aut.clickSubmitLoginBtn();
+    }
+
+    @Given("^User is at the MY ACCOUNT page$")
+    public void userIsAtTheMYACCOUNTPage() throws IOException {
+        userIsAtThePage();
+        userInformsAnEmailAddressAtTheAlreadyRegisteredOption();
+        userInformsAPassword();
+        userClicksOnSignInButton();
+        userShouldSeeThePage("MY ACCOUNT");
+    }
+
+    @When("^User clicks on Sign Out Button$")
+    public void userClicksOnSignOutButton() {
+        myaccount.clickSignOut();
     }
 }
